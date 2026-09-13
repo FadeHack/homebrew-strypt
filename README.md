@@ -5,10 +5,9 @@ binary for macOS (Apple Silicon, Intel) and Linux (x86_64, aarch64), checked aga
 `SHA256SUMS`.
 
 ```sh
-brew tap fadehack/strypt
-brew trust --tap fadehack/strypt
-brew install strypt
+brew install fadehack/strypt/strypt
 ```
 
-Homebrew 6 asks you to trust a third-party tap before it runs the tap's code. Read
-[`Formula/strypt.rb`](Formula/strypt.rb) first: it is short.
+Naming the formula in full is what trusts it: Homebrew 6 refuses a bare `brew tap fadehack/strypt`
+until you run `brew trust fadehack/strypt`. Read [`Formula/strypt.rb`](Formula/strypt.rb) first;
+it is short.
