@@ -2,7 +2,6 @@
 class Strypt < Formula
   desc "Strip hidden identifying metadata from files so they are safer to share"
   homepage "https://github.com/FadeHack/strypt"
-  version "0.1.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
