@@ -6,23 +6,23 @@ class Strypt < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/FadeHack/strypt/releases/download/v0.2.0/strypt-0.2.0-aarch64-apple-darwin"
-      sha256 "e24ecfb9c189ba9977b2ca71f5d3655babeadbca07bfca69ff6d2698216ac887"
+      url "https://github.com/FadeHack/strypt/releases/download/v0.3.0/strypt-0.3.0-aarch64-apple-darwin"
+      sha256 "ed12307fc4ea5ddfb7b8c2458d464fcd0df8a18527eb8b729bcd8d8dfd2937ee"
     end
     on_intel do
-      url "https://github.com/FadeHack/strypt/releases/download/v0.2.0/strypt-0.2.0-x86_64-apple-darwin"
-      sha256 "f2e2131fb2e688cead8064c661a62b49c549ab4b423e5facedd69e2194327b5e"
+      url "https://github.com/FadeHack/strypt/releases/download/v0.3.0/strypt-0.3.0-x86_64-apple-darwin"
+      sha256 "b7d250983d83dc61c82c7709d0520cf103e4ef31123bd1598776fc6992948e49"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/FadeHack/strypt/releases/download/v0.2.0/strypt-0.2.0-aarch64-unknown-linux-musl"
-      sha256 "8174b1469dd2213815c967599160051f1017139bbd28e2e8dcd09d2253daf498"
+      url "https://github.com/FadeHack/strypt/releases/download/v0.3.0/strypt-0.3.0-aarch64-unknown-linux-musl"
+      sha256 "020fb0711abea816becf5d86293a55d1f520d680ea8f5e6f3855fd7b6b39eb2a"
     end
     on_intel do
-      url "https://github.com/FadeHack/strypt/releases/download/v0.2.0/strypt-0.2.0-x86_64-unknown-linux-musl"
-      sha256 "219c9ea90c3706afc5ef2d98b8c7a487a297d499858df7a04476800e61b452bb"
+      url "https://github.com/FadeHack/strypt/releases/download/v0.3.0/strypt-0.3.0-x86_64-unknown-linux-musl"
+      sha256 "fc60ef285d803141ce8e29c1a246d2813a4a9167c54fb53458a59559c8e07d68"
     end
   end
 
